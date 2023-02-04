@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Soundbox Store</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bx-headphone'></i>Soundbox</a>
+
+        <ul class="navegaçao">
+            <li><a href="#">Overview</a></li>
+            <li><a href="#">Tech Specs</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class="header_icons">
+            <i class='bx bxs-cart' ></i>
+            <div  id="menu">
+                <i class='bx bx-menu' ></i>
+            </div>
+        </div>
+    </header>
+    <section class="home">
+        <div class="home-img">
+            <img src="imgs/product1.png" alt="Headphones" class="one">
+        </div>
+        <div class="home-text">
+            <h1>Wireless <br> Headphones</h1>
+            <h5>The smarter way to lister</h5>
+            <h3>$169.00</h3>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <div class="main">
+        <div class="row">
+            <li><img src="imgs/main1.png" onclick="slider('imgs/product1.png')"></li>
+        </div>
+        <div class="row2">
+            <li><img src="imgs/main2.png" onclick="slider('imgs/product2.png')"></li>
+        </div>
+        <div class="row3">
+            <li><img src="imgs/main3.png" onclick="slider('imgs/product3.png')"></li>
+        </div>
+        
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
